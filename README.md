@@ -41,6 +41,17 @@ Cada componente identificado é analisado conforme regras baseadas na metodologi
 * Engenharia de Prompt
 * STRIDE Threat Modeling
 
+🧠 **Fluxo geral da solução**
+
+O pipeline completo do sistema funciona da seguinte forma:
+
+1️⃣ Upload do diagrama arquitetural  
+2️⃣ Extração automática de componentes via LLM  
+3️⃣ Normalização taxonômica dos elementos  
+4️⃣ Aplicação do modelo STRIDE  
+5️⃣ Enriquecimento das ameaças com explicações e contramedidas  
+6️⃣ Geração automática de relatório técnico em PDF
+
 📊 **Resultados**
 
 A saída do sistema consiste em:
@@ -50,4 +61,4 @@ A saída do sistema consiste em:
 
 🚀 **Conclusão**
 
-A abordagem demonstra a viabilidade de uso de LLMs multimodais em modelagem de ameaças, eliminando necessidade de treinamento customizado para MVPs.
+Esse fluxo demonstra como **modelos de linguagem podem ser utilizados para automatizar atividades de Threat Modeling**, eliminando necessidade de treinamento customizado para MVPs, reduzindo esforço manual e aumentando a velocidade de análise de arquiteturas de software.
